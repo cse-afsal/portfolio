@@ -1,0 +1,424 @@
+.body {
+    background: linear-gradient(to right, #000108, #2c2a2a);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    transition: translate (-50%,-50%);
+}
+
+.s1 {
+    margin-top: 16%;
+    color: white;
+    margin-left: 5%;
+    font-size: 2em;
+}
+
+.h1 {
+    color: rgb(244, 244, 244);
+    font-size: 25px;
+    margin-left: 300px;
+      font-family: Arial;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid rgb(255, 255, 255);
+      width: 0;
+      animation: typing 4s steps(25, end) forwards,
+                 blink 0.75s step-end infinite;
+}
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 17ch }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+
+.p1 {
+    color: rgba(255, 255, 255, 0.474);
+    margin-left: 0%;
+    margin-bottom: 0%;
+    display: inline-block;
+
+}
+
+.nav {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    word-spacing: 10px;
+    margin-left: 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.button1 {
+    margin-left: 5%;
+    margin-bottom: 3%;
+    background-color: transparent;
+    color: rgb(180, 19, 19);
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    font-size: larger;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(255, 2, 2), 0 0 30px rgba(0, 255, 255, 0.2);
+}
+.button1::before {
+    transform: translate(-50%, -50%);
+    content: '';
+    z-index: -1;
+    transition:all 0.6s ease;
+    position: absolute;
+}
+.button1::before{
+    width:0;
+    height:100%;
+}
+.button2 {
+    margin-left: 5%;
+    margin-bottom: 3%;
+    background-color:transparent;
+    color: rgb(180, 19, 19);
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgb(255, 0, 0), 0 0 30px rgba(0, 255, 255, 0.2);
+    transition: background-color 0.3s;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+.button3 {
+    margin-left: 5%;
+    margin-bottom: 3%;
+    background-color:transparent;
+    color: rgb(255, 0, 0);
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgb(255, 0, 0), 0 0 30px rgba(0, 255, 255, 0.2);
+    transition: background-color 0.3s;
+    font-size: larger;
+    border-radius: 5px;
+}
+.button4 {
+    margin-left: 5%;
+    margin-bottom: 3%;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.667);
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    font-size: larger;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(0, 255, 17), 0 0 30px rgba(0, 255, 255, 0.2);
+}
+
+.button4:hover {
+    background-color: rgb(0, 0, 0);
+    
+}
+.button1:hover,
+.button2:hover,
+.button3:hover {
+    background-color: rgb(2, 0, 0);
+}
+
+.button2:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.button3:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+
+.div1 {
+    width: 400px;
+    height: 100%;
+    /* full screen height */
+    float: left;
+    border: 2px #ffffff;
+    position:fixed;
+    top:0;
+    left:0;
+    padding:0px;
+    background:url(https://tse2.mm.bing.net/th/id/OIP.4TPyNI4XhNcX4223ZfR3_QHaNK?rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-size: cover;
+    align-items: center;
+    border: 3px solid #ffffff;
+    margin-right: 50px;
+    
+    
+}
+
+.div2 {
+    width: 900px;
+    height: 80vh;
+    
+    color: white;
+    border: 5px #dadcdf;
+    font-size: larger;
+    padding: 20px;
+    margin-left: 35%;
+    background-color: linear-gradient(to right , red,black);
+    display: inline-block;
+}
+
+.h5 {
+    color: rgba(255, 255, 255, 0.482);
+}
+
+.instagram {
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.linkedin {
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.h1:hover {
+    color: rgb(0, 242, 255);
+    transition: 0.5s;
+}
+
+.p1:hover {
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.h5:hover {
+    color: rgb(9, 255, 0);
+    transition: 0.5s;
+}
+
+.name span  {
+      display: inline-block;
+      font-size: 40px;
+      animation: wave 1s 1 ease-out;
+      align-items: center;
+      margin-top: 0px;
+      
+    }
+
+    .name span:nth-child(1) { animation-delay: 0s; }
+    .name span:nth-child(2) { animation-delay: 0.1s; }
+    .name span:nth-child(3) { animation-delay: 0.2s; }
+    .name span:nth-child(4) { animation-delay: 0.3s; }
+    .name span:nth-child(5) { animation-delay: 0.4s; }
+
+    @keyframes wave {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+    
+.github {
+    margin-left: 5%;
+    margin-top: 10%;
+    padding-top: 20px;
+}
+.project {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-right: 30%;
+    
+}
+.calcu1{
+    margin-left: 8%;
+    color: rgb(246, 246, 246);
+    font-size: 1.5em;
+}
+.img {
+    border: #010102 solid 5px;
+    margin-left: 5%;
+}
+.img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.name {
+    margin-left: 200px;
+    margin-top: -70px;
+    
+    
+}
+.h5 {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.butt {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.social {
+    margin-top: 20px;
+}
+.marq {
+    color: #ffffff;
+    margin-left: 90px;
+}
+.hr {
+    height:3px;
+    color: #ffffff;
+    width: 10000px;
+    background-color: #ffffff;
+}
+.img1 {
+    background-image: url(mypic.jpg);
+    background-size:cover ;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    margin-left: 50px;
+    margin-top: 20px;
+   transition: transform 0.5s ease;
+}
+.img1:hover {
+     transform: scale(1.2) ;
+}
+.div3 {
+    width: 100%;
+    height: 100vh;
+    color: rgb(0, 0, 0);
+    border: 5px #d5d9dd;
+    font-size: larger;
+    margin-left: 25%;
+    background-color: #030405;
+    
+    top:0;
+    float: left;
+    
+   
+} 
+.head2 {
+    color:#03f527;
+    margin-left: 45%;
+   
+}
+.p2 {
+    color: rgb(255, 255, 255);
+    margin-left: 45%;
+    
+}
+.aboutt {
+    margin-left: 35%;
+    color: aliceblue;
+    
+}
+.aboutt1 {
+    margin-left: 60%;
+    color: aliceblue;
+    margin-top: -15%;
+}
+.footer{
+      color: antiquewhite;
+      background: #1e1e2f;
+      text-align: center;
+      margin-top: 90%;
+      padding:10px;
+    }
+.nav{
+    background-color: transparent;
+    overflow: hidden;
+    text-decoration: none;
+    margin-left: 70%;
+    margin-top: -20%;
+   }
+ .nav a{
+    float: left;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+   }
+ .nav a:hover{
+    background-color: transparent;
+    color: rgb(51, 255, 0);
+ }
+ .skill1 {
+    margin-left: 5%;
+    color: aliceblue;
+    font-size: larger;
+    display:inline-block;
+    margin-top: -20%;
+ }
+ .skill2 {
+    margin-left: 5%;
+    color: aliceblue;
+    font-size: larger;
+    display:inline-block;
+    margin-top: 10%;
+
+ }
+ .skill3 {
+    margin-left: 5%;
+    color: aliceblue;
+    font-size: larger;
+ }
+ .parent {
+        width: 350px;
+        height: 10px;
+        display: flex;
+        background-color: #000000;
+        animation: apple 1s 1 ease-in-out;
+        animation-fill-mode: forwards;
+        border: #ffffff solid 1px;
+       }
+      @keyframes apple {
+        0% {width: 0px;}
+        100% {width: 350px;}
+      }
+      .child {
+        width: 250px;
+        height: 10px;
+        background-color: #4CAF50;
+        animation: move 2s 1 ease-in-out;
+      }
+      @keyframes move {
+        0% { transform: translateX(0); }
+        
+      }
+      .div9 {
+    
+    color: white;
+    border: 5px #dadcdf;
+    font-size: larger;
+    background-color: linear-gradient(to right , red,black);
+    margin-top: 5%;
+    
+}
+
+.resume {
+    width: 50%;
+    height: auto;
+    margin-left: 7%;
+    margin-top: 2%;
+    display: inline-block;
+    
+}
+.res {
+    margin-left:20%;
+    margin-top:10%;
+    
+}
+.btnres {
+    margin-left: 70%;
+    margin-top: -200%;
+    padding: 10px 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 30px rgba(0, 255, 255, 0.2);   
+    display:inline-flex;
+}
+.div4 {
+    margin-top: -50%;
+    margin-left: 35%;
+}
